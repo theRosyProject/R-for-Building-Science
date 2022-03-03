@@ -13,7 +13,9 @@ Follow the instruction to get into your Berkeley account and once logged into yo
 - from the command prompt type: *'cd'* 
 - from the command prompt type: *'mkdir -p timeSeriesR_Apr2022/data'*
 - from the command prompt type: *'cd timeSeriesR_Apr2022/data/'*
-- from the command prompt type: *wget https://github.com/theRosyProject/TimeSeriesR/blob/main/Archive.zip?raw=true*
+- from the command prompt type: *'wget https://github.com/theRosyProject/TimeSeriesR/blob/main/Archive.zip?raw=true'*
 - from the command prompt type: *'mv Archive.zip\?raw\=true MRG_2021.zip'*
 - from the command prompt type: *'unzip MRG_2021.zip'*
 - from the command promot type: *'cd ..'*
+
+And we should be ready to start!
