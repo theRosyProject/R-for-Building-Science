@@ -7,7 +7,7 @@ During the class will be shown how to work with date and time with R. We will us
 Equipment necessary for the students: personal computer. No needs to have R installed. We will use the Jupyter Notebook hosted at: 
 <https://datahub.berkeley.edu/>.
 
-Once logged into your JupyterHub environment:
+Follow the instruction to get into your Berkeley account and once logged into your JupyterHub environment:
 
 - from *Files* open: *New > Terminal*
 - from the command prompt type: *'cd'* 
