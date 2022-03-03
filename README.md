@@ -24,7 +24,7 @@ cd timeSeriesR_Apr2022/data/
 wget https://github.com/theRosyProject/TimeSeriesR/blob/main/Archive.zip?raw=true
 mv Archive.zip\?raw\=true MRG_2021.zip
 unzip MRG_2021.zip
-cd ..
+exit
 ```
 
 And we should be ready to start!
