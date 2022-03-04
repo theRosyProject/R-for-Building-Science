@@ -5,8 +5,6 @@
 .RData
 # User-specific files
 .Ruserdata
-week3/data/meteo
-week3/data/meteo/MRG_2021
 week3/data/MRG_2021
 week3/data/__MACOSX
 # Example code in package build process
