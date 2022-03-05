@@ -39,9 +39,10 @@ PBS %>%
 # --- get Col Margherita Obs. Data ---#
 ## -- load multiple data file into a single file
 
-file_meteo <- Sys.glob("meteo/MRG_2021/MRG_**********_METEO_01M.txt")
-output_file_meteo <- file.create("meteo/MRG_2021/recombined_METEO_01M.txt")
-output_file_meteo <- file("meteo/MRG_2021/recombined_METEO_01M.txt", "r+")
+file_meteo <- Sys.glob(paste0(here::here("week3", "data", "MRG_2021"), "/MRG_**********_METEO_01M.txt"))
+targetFile <- paste0(here::here("week3", "data", "MRG_2021"), "/recombined_METEO_01M.txt")
+output_file_meteo <- file.create( targetFile )
+output_file_meteo <- file( targetFile , "r+")
 for (i in file_meteo) {
   input <- readLines(i)
   input <- input[-c(1)] # delete header
@@ -51,7 +52,7 @@ close(output_file_meteo)
 
 ## --  load data in memory and description and data types
 
-meteo_01M <- read.csv(file = "meteo/MRG_2021/recombined_METEO_01M.txt", header = FALSE, sep = " ")
+meteo_01M <- read.csv(file = targetFile , header = FALSE, sep = " ")
 
 names(meteo_01M) <- c("datetime", 
                       "mean_WD_deg", "sd_WD_deg", "mean_WS_ms", "sd_WS_ms", 
