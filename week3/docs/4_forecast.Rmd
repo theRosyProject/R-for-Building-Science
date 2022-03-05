@@ -45,6 +45,8 @@ How to fill the gap in missing data?
 
 Index variable Month, and the keys Concession and Type, would be returned **even if they were not explicitly selected** as they are required for a tsibble (to ensure each row contains a unique combination of keys and index)
 
+## Time Plots
+
 
   
 
