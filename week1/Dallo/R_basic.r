@@ -1,4 +1,4 @@
-"Hello Cal!" # this is an explict print
+"Hello Cal!" # this is an explicit print
 
 5 # this is a number.. 
 

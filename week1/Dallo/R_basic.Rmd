@@ -1,0 +1,43 @@
+---
+title: "R_basic"
+author: "Federico Dallo"
+date: "4/5/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Let's start!
+
+## General interaction with R environment(s)
+```{r}
+"Hello Cal!" # this is an explicit print
+```
+
+```{r}
+5 # this is a number.. 
+```
+
+```{r}
+is.numeric(5) # this is a number.. 
+```
+
+```{r}
+typeof(5) # but what kind of number??
+```
+
+```{r}
+# Can I force to have another representation?
+typeof( as.integer(5) )
+print( as.integer(5) ) # we need to explicitly invoke the "print" function
+typeof( as.character(5) )
+print( as.character(5) )
+```
+
+```{r}
+for (i in 1:5) {print(i)}
+```
+
+## Arithmetics 
