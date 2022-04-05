@@ -1,4 +1,4 @@
-# TimeSeriesR
+# R for Building Science
 
 This repo contains the materials for the ARCH 249 Module 3. 
 
