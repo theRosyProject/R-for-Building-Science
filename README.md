@@ -28,7 +28,9 @@ In this class you’ll learn how to analyse responses to survey questions. We’
 - Engel, C. (2021) Data Wrangling with R 
 - RStudio Cheatsheets for dplyr, tidyr, stringr, and forcats
 
-## Week 3 - During the class will be shown how to work with date and time with R. We will use the Tidyverse programming style and deepen the Lubridate library tools to: 
+## Week 3 - Timeseries data (Federico Dallo; 3 hrs)
+
+During the class will be shown how to work with date and time with R. We will use the Tidyverse programming style and the Lubridate library to: 
 
 1) describe a date-time object properties (e.g. format, time-zone, etc.); 
 2) create a date-time object for time series analysis in R; 
@@ -43,7 +45,7 @@ In this class you’ll learn how to analyse responses to survey questions. We’
 - https://otexts.com/fpp3/
 
 
-## Week 4 - Whole Building Simulation and Analysis in R(Carlos Duarte; 3 hrs)
+## Week 4 - Whole Building Simulation and Analysis in R (Carlos Duarte; 3 hrs)
 
 In this class you will learn how to create building performance data and apply your timeseries analysis techniques learned in previous classes to help you design high performance buildings. We will use the eplusr package to import an EnergyPlus model file, modify it to create a parametric study, retrieve simulation outputs, and analyze them to make informed building design decisions.
 
