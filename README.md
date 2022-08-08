@@ -2,7 +2,7 @@
 
 This repo contains the materials for the ARCH 249 Module 3. 
 
-## Week 1 April 01 - Introduction to R (Tom Parkinson, Carlos Duarte, Federico Dallo; 3 hours)
+## Week 1 - Introduction to R (Tom Parkinson, Carlos Duarte, Federico Dallo; 3 hours)
 
 This class will introduce you to the R programming language and Jupyter Notebooks. We’ll briefly cover fundamentals like syntax, data types, functions, packages, and development environments. We’ll also walk through the philosophy of the Tidyverse collection of packages, including data visualizations with ggplot2. By the end of the class you’ll be able to write, edit and run a basic R script in Jupyter Notebooks.
 
@@ -16,7 +16,7 @@ This class will introduce you to the R programming language and Jupyter Notebook
 - Wickham, H. (2022) ggplot2: Elegant Graphics for Data Analysis
 - The R Graph Gallery
  
-## Week 2 April XX - Working with survey data in R (Tom Parkinson; 3 hrs)
+## Week 2 - Working with survey data in R (Tom Parkinson; 3 hrs)
 
 In this class you’ll learn how to analyse responses to survey questions. We’ll establish a workflow for importing data into R, data wrangling, producing summary statistics, and simple visualizations. Specifically, we’ll work with categorical data from the CBE Occupant Survey with a focus on strings and factors. By the end of the class you’ll be familiar with basic data wrangling and working with different data types in R.
 
